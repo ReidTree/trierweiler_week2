@@ -1,0 +1,49 @@
+body, button {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+div.top {
+  background-color: black;
+  border-top: 1px solid white;
+  width: 100px;
+  margin: 10px auto;
+  color: white;
+  padding: 5px 30px;
+}
+div {
+  width: 400px;
+  color: black;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+}
+input, button {
+  margin: 10px 0 0 0;
+}
+ input {
+   width: 395px;
+   border: none;
+   border-bottom: 1px solid grey;
+   padding-left: 5px;
+   font-weight: bold;
+ }
+ button{
+   width: 100%;
+   padding: 10px 0;
+   border: none;
+   text-transform: uppercase;
+ }
+.grey, a {
+  color: grey;
+}
+
+a:hover {
+  font-weight: bold;
+}
+body {
+  margin: 40px 0;
+}
+button:hover {
+  box-shadow: 5px 5px 10px grey;
+}

@@ -1,0 +1,64 @@
+1. boolean, null, undefined
+
+2. 0, "", false
+
+3. var isLoggedIn = false;
+if (isLoggedIn != true) {
+	console.log('Sorry, you must log in!');
+} else {
+	console.log('You are now logged in.');
+}
+
+4. for(var i = 9; i<=33; i++){
+	if (i%2 == 1) {
+		console.log(i);
+	}
+};
+
+5. function createEntry(entry){
+	return entry;
+};
+createEntry('Grant');
+
+6. detroitTeams = ['Tigers','Lions','Pistons','Red Wings'];
+detroitTeams.forEach(function(x){
+	console.log(x);
+});
+
+7. var myInfo = {
+	firstName: 'Reid',
+	lastName: 'Trierweiler',
+	age: 24
+};
+console.log(myInfo.lastName);
+
+8. var summary = document.createElement('p');
+summary.id = 'summary';
+document.body.appendChild(summary);
+document.getElementById('summary').innerText = "JavaScript is the best!";
+
+9. .createElement()
+
+10. var phoneBook = [{
+	name: "Grant Chirpus",
+	number: 3133382780
+},{
+	name: "Taylor Swift",
+	number: 1234567890
+},{
+	name: "Rocky Balboa",
+	number: 1238675309
+},{
+	name: "Indiana Jones",
+	number: 5555555555
+}];
+
+phoneBook.forEach(function(x){
+	console.log(x);
+});
+
+
+
+
+
+
